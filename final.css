@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #faf7f8;
+   
+}
+.logo{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(240, 162, 194);
+    margin-right: auto;
+    border-radius: 10px;
+    color: white;
+}
+.logo img{
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    background: lightpink;
+}
+.logo ul{
+    text-decoration: none;
+    display: flex;
+    gap: 140px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(97, 235, 235);
+    height: 30px;
+    font-family: verdana;
+}
+.logo :hover{
+    transform: translatex(20px);
+}
+.logo ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+}
+header{
+    background-color: white;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+    padding: 1em;
+    margin: 5px;
+
+}
+.member{
+background: rgb(230, 109, 125);
+padding: 1em;
+border-radius: 8px;
+text-align: center;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0 1);
+background-color: rgb(165, 210, 236);
+}
+.member img{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+}
+.member :hover{
+    transform: translatex(10px);
+}
+.welcome{
+grid-column: span;
+background: white;
+padding: 1em;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgb(0 0 0 0 1);
+justify-content: center;
+justify-items: center;
+}
+footer{
+background-color: bisque;
+color: black;
+text-align: center;
+padding: 1em;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+.mess{
+    font-size: larger;
+    font-style: oblique;
+    margin: 10px;
+    padding: 10px;
+    background: salmon;
+    color: black;
+    margin-right: 1100px;
+    border-radius: 10px;
+    display: flex;
+}
+.sec{
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.landing-container video{
+   
+    width: 100%;
+    margin: 10px;
+   
+}
+.exp{
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    justify-items: center;
+    font-style: oblique;
+}
+.ops{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: pink;
+   
+}
+@media Only screen and (max-width:600px) {
+
+    .logo ul{
+
+        font-size: small;
+        gap: 30px;
+        padding: 5px;
+    }
+}
+  /* tablet */
+  @media Only screen and (max-width: 786px) {
+    .logo ul{
+
+        font-size: small;
+        gap: 10px;
+        padding: 10px;
+        margin-right: 10px ;
+    }
+
+}
+.mess{
+    font-size: small;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+
